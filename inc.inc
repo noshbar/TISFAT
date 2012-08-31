@@ -1,0 +1,36 @@
+const
+   //OBJECTS
+   O_RECTANGLE = 1;
+   O_OVAL = 2;
+   O_SOUND = 3;
+   O_STICKMAN = 4;
+   O_POLY = 5;
+   O_SUBTITLE = 6;
+   O_TEXT = 7;
+   O_BITMAP = 8;
+   O_EXPLODE = 9;
+   O_LINE = 10;
+   O_STICKMANBMP = 11;
+   O_SPECIALSTICK = 12;
+   O_T2STICK = 13;
+   //EDITING
+   O_EDITVIDEO = 100;
+   //ACTIONS
+   A_JUMPTO = 0;
+   A_LOADNEW = 1;
+   A_SHAKE = 2;
+   A_OLD = 3;
+   A_NOTHING = -1;
+   //MISC UNUSED CONSTANTS
+   C_STARTFRAME = 16;
+   C_ENDFRAME = 32;
+   C_TWEENFRAME = 64;
+   C_MAXPART = 200;
+   //
+   O_NOTHING = 128;
+   //EDITING COMMANDS
+   E_POINTCHANGE = 1;
+   E_COLOURCHANGE = 2;
+   E_MOVEOBJECT = 3;
+   E_T2STICK = 4;
+
